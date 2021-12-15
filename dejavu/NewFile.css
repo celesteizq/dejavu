@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightgray;
+}
+
+h1.negro {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 250%;
+	text-align: right;
+}
+
+.body {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+p.number {
+	text-align: center;
+	color: white;
+	margin-left: 1%;
+	font-weight: bolder;
+	font-size: 200%;
+	letter-spacing: 0.2em;
+}
+
+time {
+	padding: 1%;
+	background-color: gray;
+}
+
+p.uno {
+	font-weight: bolder;
+	font-size: 150%;
+	margin-bottom: -1%;
+}
+
+hr.blanco {
+	border-bottom: 0.2em solid white;
+}
+
+p.dos {
+	font-size: medium;
+}
+
+strong .mayus {
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+mark {
+	background-color: white;
+	color: red;
+	font-size: medium;
+}
+
+.enfasis {
+	font-size: large;
+	border-bottom-style: dashed;
+	border-width: thin;
+	border-color: red;
+	font-weight: 500;
+	word-spacing: 0.2em;
+}
+
+hr.negro {
+	border-bottom: 0.1em solid black;
+}
+
+.azul {
+	color: blue;
+}
