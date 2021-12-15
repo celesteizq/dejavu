@@ -17,6 +17,7 @@ h1.negro {
 	margin-right: 10%;
 	text-align: justify;
 	font-family: sans-serif;
+	position: relative;
 }
 
 p.number {
@@ -40,7 +41,7 @@ p.uno {
 }
 
 hr.blanco {
-	border-bottom: 0.2em solid white;
+	border: 0.190em solid white;
 }
 
 p.dos {
@@ -69,9 +70,29 @@ mark {
 }
 
 hr.negro {
-	border-bottom: 0.1em solid black;
+	border: 0.190em solid black;
 }
 
 .azul {
 	color: blue;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100em;
+	height: 2em;
+	border-top: 0.2em solid black;
+	background-color: white;
+	padding-bottom: 1em;
+}
+
+.pie {
+	text-align: center;
+	font-size: smaller;
+}
+
+.italic {
+	font-style: italic;
 }
