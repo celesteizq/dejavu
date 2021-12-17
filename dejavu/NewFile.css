@@ -8,8 +8,10 @@ h1.negro {
 	background-color: black;
 	color: white;
 	width: 100%;
-	height: 250%;
+	height: 150%;
 	text-align: right;
+	margin-top: -0.4em;
+	display: inline-block;
 }
 
 .body {
@@ -81,15 +83,17 @@ hr.negro {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 100em;
-	height: 2em;
 	border-top: 0.2em solid black;
 	background-color: white;
 	padding-bottom: 1em;
+	width: 100%;
+	height: 2em;
+	text-align: center;
 }
 
 .pie {
-	text-align: center;
+	position: relative;
+	display: inline-block;
 	font-size: smaller;
 }
 
